@@ -19,8 +19,13 @@ import { UserData } from './providers/user-data';
 })
 export class AppComponent implements OnInit {
   appPages = [
+      {
+        title: 'calendar',
+        url: '/app/tabs/calendar',
+        icon: 'calendar'
+      },
     {
-      title: 'Schedule',
+      title: 'tasks',
       url: '/app/tabs/schedule',
       icon: 'calendar'
     },
